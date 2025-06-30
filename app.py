@@ -19,4 +19,4 @@ demo = gr.Interface(
     description="Haz preguntas como: ¿cómo dividir? ¿cómo derivar x^2? ¿quieres un test?",
 )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=8080)
